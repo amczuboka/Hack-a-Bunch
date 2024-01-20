@@ -9,6 +9,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.component';
+import { CardComponent } from './components/card/card.component';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +19,7 @@ import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.compo
     FooterComponent,
     LandingComponent,
     MortgageInfoComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
