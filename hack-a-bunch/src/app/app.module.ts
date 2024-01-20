@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { CardComponent } from './components/card/card.component';
 import { CarPaymentsComponent } from './pages/car-payments/car-payments.component';
 import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.component';
 
@@ -17,6 +18,7 @@ import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.compo
     HeaderComponent,
     FooterComponent,
     LandingComponent,
+    CardComponent,
     MortgageInfoComponent,
     CarPaymentsComponent,
   ],
