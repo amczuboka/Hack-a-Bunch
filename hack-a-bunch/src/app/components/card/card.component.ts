@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,4 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
   @Input() topics: any; //binding topics to the card component
+
+  isHovered: boolean = false;
+
+  setHovered(value: boolean): void {
+    this.isHovered = value;
+  }
 }
