@@ -1,0 +1,12 @@
+<div class="topics">
+  <div *ngFor="let item of topics" class="card" style="width: 400px; height: 250px">
+    <div class="card-content">
+      <img class="card-img-top" src={{item.image}} alt={{item.title}} />
+      <div class="card-body">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.description }}</p>
+        <a href="#" class="btn btn-primary">See More</a>
+      </div>
+    </div>
+  </div>
+</div>
