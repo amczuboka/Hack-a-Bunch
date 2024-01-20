@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Topic } from 'src/app/modules/topic';
 
 @Component({
   selector: 'app-landing',
@@ -6,5 +7,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./landing.component.scss']
 })
 export class LandingComponent {
+  topics: Topic[] = [];
 
+  ngOnInit() {
+    this.topics = [
+      {
+        title: 'Student Loans',
+        description: 'Are you curious how much you will pay in interest over the life of your student loans? We can help you figure that out.',
+        image: '../../../assets/img/student-loans.png',
+        link: 'https://picsum.photos/200/300',
+      },
+      {
+        title: 'Mortgages',
+        description: 'Would you like to know how much you will pay in interest over the life of your mortgage? We can help you figure that out.',
+        image: '../assets/images/student-loans.png',
+        link: 'https://picsum.photos/200/300',
+      },
+      {
+        title: 'Car payments',
+        description: 'Do you know how much you will pay in interest over the life of your car loan? We can help you figure that out.',
+        image: '../assets/images/student-loans.png',
+        link: 'https://picsum.photos/200/300',
+      }
+    ];
+  }
 }
