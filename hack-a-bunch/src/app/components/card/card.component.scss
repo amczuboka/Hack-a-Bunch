@@ -1,10 +1,17 @@
 .topics {
   display: flex;
   justify-content: space-around;
+  box-sizing: content-box;
 }
 
 .card {
-  margin-right: 10px;
+  margin-right: 25px;
+  border-color: #9ad8e8;
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0;
 }
 
 .card-content {
@@ -12,10 +19,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  overflow: hidden;
 }
 
 .card-img-top {
-  height: auto;
+  height: 60%;
 }
 
 .card-body {
@@ -25,4 +33,15 @@
 .card-title {
   font-size: 20px;
   font-weight: bold;
+}
+
+.btn {
+  background-color: #4796a9;
+  border-color: #338ca2;
+}
+
+.btn:hover {
+  background-color: #66b7cb;
+  border-color: #4792a5;
+  scale: 1.1;
 }
