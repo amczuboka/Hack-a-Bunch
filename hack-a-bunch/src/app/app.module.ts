@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { LandingComponent } from './pages/landing/landing.component';
     HeaderComponent,
     FooterComponent,
     LandingComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
