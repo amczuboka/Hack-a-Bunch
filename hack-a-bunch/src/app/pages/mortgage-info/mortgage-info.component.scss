@@ -3,3 +3,52 @@ mat-expansion-panel-header{
 }
 
 
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .action-container {
+  min-height: fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  padding-right: 20px;
+
+  box-shadow: 0 1px 8px rgb(234, 220, 135), 0 1px 6px rgb(248, 240, 183);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Style for the title */
+.title-part {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style for the slogan */
+.slogan {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.topics {
+  height: 100%;
+  display: flex;
+//   justify-content: center;
+//   align-items: center;
+  margin-top: 10px;
+}
