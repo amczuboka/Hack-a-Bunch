@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { CardComponent } from './components/card/card.component';
+import { StudentLoansComponent } from './pages/student-loans/student-loans.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CardComponent } from './components/card/card.component';
     FooterComponent,
     LandingComponent,
     CardComponent,
+    StudentLoansComponent,
   ],
   imports: [
     BrowserModule,
