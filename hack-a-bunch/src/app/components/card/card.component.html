@@ -1,5 +1,5 @@
 <div class="topics">
-  <div *ngFor="let item of topics" class="card" style="width: 400px; height: 450px">
+  <div *ngFor="let item of topics" class="card">
     <div class="card-content" [class.scaled]="isHovered" (mouseenter)="setHovered(true)" (mouseleave)="setHovered(false)">
       <img class="card-img-top" src={{item.image}} alt={{item.title}} />
       <div class="card-body">
