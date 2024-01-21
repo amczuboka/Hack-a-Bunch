@@ -8,9 +8,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
-import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.component';
 import { CardComponent } from './components/card/card.component';
 import { StudentLoansComponent } from './pages/student-loans/student-loans.component';
+import { CarPaymentsComponent } from './pages/car-payments/car-payments.component';
+import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.component';
 
 
 @NgModule({
@@ -19,9 +20,10 @@ import { StudentLoansComponent } from './pages/student-loans/student-loans.compo
     HeaderComponent,
     FooterComponent,
     LandingComponent,
-    MortgageInfoComponent,
     CardComponent,
     StudentLoansComponent,
+    MortgageInfoComponent,
+    CarPaymentsComponent,
   ],
   imports: [
     BrowserModule,
