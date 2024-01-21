@@ -14,8 +14,8 @@ export class LandingComponent {
       {
         title: 'Student Loans',
         description: 'Are you curious how much you will pay in interest over the life of your student loans? We can help you figure that out.',
+        link: 'student-loans',
         image: '../../../assets/img/cute_student_debt.png',
-        link: 'https://picsum.photos/200/300',
       },
       {
         title: 'Mortgages',
