@@ -7,7 +7,8 @@
 .card {
   margin-right: 25px;
   border-color: #9ad8e8;
-  transition: transform 0.3s ease;
+  width: 400px; 
+  height: 450px;
 }
 
 .card:last-child {
@@ -45,3 +46,57 @@
   border-color: #4792a5;
   scale: 1.1;
 }
+
+@media screen and (max-width: 1300px) {
+    .card-content {
+        flex-direction: row;
+    }
+
+    .topics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 25px;
+        margin-right: 0;
+        width: 700px; 
+        height: 650px;
+      }   
+      .card-content {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        overflow: hidden;
+      }
+      .card-img-top {
+        height: 70%;
+      }
+  }
+
+  @media screen and (max-width: 800px) {
+    .card-content {
+        flex-direction: row;
+    }
+
+    .topics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 25px;
+        margin-right: 0;
+        width: 400px; 
+        height: 600px;
+      }   
+      .card-content {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        overflow: hidden;
+      }
+      .card-img-top {
+        height: 70%;
+      }
+  }

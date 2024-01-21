@@ -1,12 +1,14 @@
 .content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-  }
-  
-  .action-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+//   overflow-y: auto;
+}
+
+.action-container {
   min-height: fit-content;
+  height: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -41,9 +43,22 @@
 }
 
 .topics {
-  height: 100%;
+  flex-grow: 1;
+  width: 100%;
+  max-height: none; /* or remove this line */
+  overflow-y: auto; /* add this line to show scrollbar when needed */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 1300px) {
+    .topics {
+        overflow-y: scroll;
+    }
+    .topics:last-child {
+        margin-bottom: 25px;
+    }
+  }
