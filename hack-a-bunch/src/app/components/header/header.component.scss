@@ -12,8 +12,25 @@
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin-left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+  .mr-auto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
