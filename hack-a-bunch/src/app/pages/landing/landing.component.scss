@@ -3,7 +3,6 @@
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
-//   overflow-y: auto;
 }
 
 .action-container {
@@ -45,7 +44,7 @@
 .topics {
   flex-grow: 1;
   width: 100%;
-  max-height: none; /* or remove this line */
+  max-height: none; 
   overflow-y: auto; /* add this line to show scrollbar when needed */
   display: flex;
   flex-direction: column;
