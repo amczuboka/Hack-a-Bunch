@@ -21,13 +21,13 @@ export class LandingComponent {
         title: 'Mortgages',
         description: 'Would you like to know how much you will pay in interest over the life of your mortgage? We can help you figure that out.',
         image: '../../../assets/img/cute_mortgage.png',
-        link: 'https://picsum.photos/200/300',
+        link: 'mortgage-info',
       },
       {
         title: 'Car payments',
         description: 'Do you know how much you will pay in interest over the life of your car loan? We can help you figure that out.',
         image: '../../../assets/img/cute_car.png',
-        link: 'https://picsum.photos/200/300',
+        link: 'car-payments',
       }
     ];
   }
