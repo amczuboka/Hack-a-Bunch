@@ -11,7 +11,7 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { CardComponent } from './components/card/card.component';
 import { CarPaymentsComponent } from './pages/car-payments/car-payments.component';
 import { MortgageInfoComponent } from './pages/mortgage-info/mortgage-info.component';
-import { CardComponent } from './components/card/card.component';
+
 
 
 @NgModule({
